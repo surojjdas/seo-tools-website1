@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meta Tag Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Meta Tag Generator</h1>
+    <p>Enter your title and description to generate meta tags:</p>
+    
+    <label for="titleInput">Title:</label>
+    <input type="text" id="titleInput" placeholder="Enter your title...">
+    
+    <label for="descriptionInput">Description:</label>
+    <textarea id="descriptionInput" placeholder="Enter your description..."></textarea>
+    
+    <button id="generateButton">Generate Meta Tags</button>
+    
+    <div id="metaTagsOutput">
+      <h3>Generated Meta Tags:</h3>
+      <pre id="metaTagsCode"></pre>
+    </div>
+    
+    <div id="searchPreview">
+      <h3>Search Engine Preview:</h3>
+      <div id="preview">
+        <div id="previewTitle"></div>
+        <div id="previewDescription"></div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
